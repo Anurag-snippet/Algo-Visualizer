@@ -1,4 +1,0 @@
-const tsrStartManifest = () => ({ routes: { __root__: { filePath: "C:/Users/Acer/Desktop/Web Dev projects/project/Algo-visualizer/src/routes/__root.tsx", children: ["/", "/pathfinding", "/sorting"], preloads: ["/Algo-Visualizer/assets/index-w-h8sCI2.js"], scripts: [{ attrs: { type: "module", async: true, src: "/Algo-Visualizer/assets/index-w-h8sCI2.js" } }] }, "/pathfinding": { filePath: "C:/Users/Acer/Desktop/Web Dev projects/project/Algo-visualizer/src/routes/pathfinding.tsx", children: void 0, preloads: ["/Algo-Visualizer/assets/pathfinding-BfADWu_I.js", "/Algo-Visualizer/assets/algoCode-Ch207SAu.js"] }, "/sorting": { filePath: "C:/Users/Acer/Desktop/Web Dev projects/project/Algo-visualizer/src/routes/sorting.tsx", children: void 0, preloads: ["/Algo-Visualizer/assets/sorting-C79ptfu-.js", "/Algo-Visualizer/assets/algoCode-Ch207SAu.js"] } } });
-export {
-  tsrStartManifest
-};
