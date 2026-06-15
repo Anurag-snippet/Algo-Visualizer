@@ -65,17 +65,3 @@ npm run build
 ```
 
 ---
-
-## 📦 Deployment
-
-### GitHub Pages (Static SSG)
-To build and publish the prerendered static client folder directly to GitHub Pages, run:
-```bash
-npm run deploy
-```
-*Behind the scenes, this runs static prerendering (`npm run build:gh-pages`) and deploys the contents of the `dist/client` folder to the `gh-pages` branch using the `gh-pages` package.*
-
-### Vercel / Netlify (Serverless SSR)
-This project is fully compatible with serverless hosts. Simply import the repository on Vercel or Netlify and run the default build script:
-*   **Build Command:** `npm run build`
-*   **Output Directory:** Default auto-detection (Nitro/Vite target)
